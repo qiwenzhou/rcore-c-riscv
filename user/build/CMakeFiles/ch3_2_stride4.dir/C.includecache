@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stddef.h
+
+../include/stdio.h
+
+../include/unistd.h
+stddef.h
+../include/stddef.h
+
+/home/penghy/Desktop/labs-2018011375/user/src/ch3_2_stride4.c
+stdio.h
+-
+unistd.h
+-
+

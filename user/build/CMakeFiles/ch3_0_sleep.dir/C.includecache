@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stddef.h
+
+../include/stdio.h
+
+../include/stdlib.h
+
+../include/unistd.h
+stddef.h
+../include/stddef.h
+
+/home/penghy/Desktop/labs-2018011375/user/src/ch3_0_sleep.c
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+

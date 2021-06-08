@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stddef.h
+
+../include/stdio.h
+
+../include/stdlib.h
+
+../include/string.h
+stddef.h
+../include/stddef.h
+
+../include/unistd.h
+stddef.h
+../include/stddef.h
+
+/home/penghy/Desktop/labs-2018011375/user/src/ch2_power.c
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+stddef.h
+-
+
